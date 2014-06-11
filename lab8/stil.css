@@ -1,0 +1,232 @@
+
+
+/* Dio koda stila koji se odnosi na cijelu stranicu */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+img { max-width: 100%; }
+
+h1, h2 {
+  color: #028A9E;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++HEADER+++++++++++++++++++++++++++++++++++++*/
+.site-header { 
+  background: #FFF; 
+  padding: 0px 0;
+  -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  /* z-index: 1;
+  position: fixed; */
+  width: 100%;
+/*   top: 0; */
+}
+.site-header img{
+width:250px;
+height:100px;
+margin-left: -23px;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++NAVIGACIJA+++++++++++++++++++++++++++++++++++++*/
+
+
+
+a { color: #DB5949; }
+a:hover { text-decoration: none; }
+name {color: #000; } 
+
+
+.gray-boxes {
+  margin: 5% auto;
+  margin-top:60px;
+  
+}
+
+.gray-boxes h1{
+color: #14786D;
+padding-top: 40px;
+padding-left: 33px;
+}
+
+.meni {
+height:auto;
+background: #BC1F2A ;
+
+margin-left: -6px;
+}
+
+.izbor {
+
+width: 89.1%;
+height:50px;
+/* padding-top:10px; */
+margin-top:15px;
+margin-left: 12px;
+background:#7A0A12 ;
+opacity:0.9;
+}
+
+.izbor a {
+height:40px;
+display:block;
+text-align:center;
+font-size:20px;
+font-family: "Lucida Console", Monaco, monospace;
+padding-top: 13px;
+color:#fff;
+text-decoration: none;
+}
+
+.izbor a:hover{
+
+background:#fff;
+opacity:0.8;
+color:#7A0A12 ;
+}
+
+/*++++++++++++++++++++++SADRŽAJ+++++++++++++++++++++++++++++++++++++*/
+
+
+.sadrzaj {
+height:auto;
+/* border-style:dashed;
+border-width:2px; */
+padding-left:12px;
+}
+.sadrzaj2 {
+height:1200px;
+/* border-style:dashed;
+border-width:2px; */
+padding-left:12px;
+}
+
+.sadrzaj a{
+color:#000;
+
+}
+
+.sidro {
+margin:3px;
+background:red;
+height:50px;
+/* width:60px; */
+background:#7A0A12 ;
+opacity:0.9;
+}
+
+
+.sidro a {
+height:50px;
+display:block;
+text-align:center;
+font-size:20px;
+font-family: "Lucida Console", Monaco, monospace;
+padding-top: 13px;
+color:#fff;
+text-decoration: none;
+}
+
+.sidro a:hover{
+
+background:#fff;
+opacity:0.8;
+color:#7A0A12 ;
+}
+
+
+#osobniPodaci {
+
+
+}
+
+
+#reklama{
+
+z-index:50;
+}
+
+
+.php{
+padding-top:150px;
+}
+
+
+
+.izborni{
+height:100px;
+}
+
+
+.korisnik{
+
+/* width:300px; */
+height:50px;
+float:right;
+padding-top: 23px;
+}
+
+.korisnik h2{
+color:#7A0A12 ;
+text-align:right;
+padding-right: 10px;
+}
+
+.gumb {
+float:right;
+height:50px;
+padding-top: 23px;
+}
+
+.bttn{
+background:#88B51E;
+height:50px;
+width:100%;
+font-size:20px;
+font-family: "Lucida Console", Monaco, monospace;
+font-weight: bold;
+color:#fff;
+
+}
+
+
+.forma {
+
+margin-left:150px;
+}
+
+
+ tr:hover { background: #FCF; } 
+
+
+/*+++++++++++++++++++++++++++++++++++++++EKRAN+++++++++++++++++++++++++++++++++++++*/
+.site-footer {
+  margin-top: 20px;
+	text-align: center;
+	padding: 10px;
+	background: #FFF;
+}
+
+.site-footer ul {
+  padding: 0;
+}
+
+.site-footer a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #DB5949;
+  text-decoration: none;
+  font-weight: 400;
+}
+.footer-navigation li {
+  display: inline;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++EKRAN+++++++++++++++++++++++++++++++++++++*/
+
+@media only screen and (max-width:780px) {
+  .column { width: 100%; margin: 0; padding: 0 10px; -moz-box-sizing: border-box; box-sizing: border-box; }
+
